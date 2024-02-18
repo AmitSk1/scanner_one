@@ -24,4 +24,5 @@ tickers = {
     'Communication Services': tickers_communication_services,
     'Consumer Defensive': tickers_consumer_defensive,
     'Energy': tickers_energy,
-    'Crypto': tickers_crypto}
+    'Crypto': tickers_crypto
+}

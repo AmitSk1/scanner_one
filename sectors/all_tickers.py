@@ -445,4 +445,14 @@ all_tickers = {
     'Canbis': ['CURLF', 'GTBIF', 'VRNOF', 'TCNNF', 'CRLBF', 'GLASF', 'CBSTF',
                'MAPS'], 'Test': ['MINA-USD']}
 
+def count_tickers(tickers_dict):
+    total_tickers = 0
+    for sector, ticker_list in tickers_dict.items():
+        count = len(ticker_list)
+        total_tickers += count
+        print(f"{sector}: {count} tickers")
+    print(f"Total tickers across all sectors: {total_tickers}")
 
+
+if __name__ == '__main__':
+    count_tickers(all_tickers)

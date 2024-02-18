@@ -1,99 +1,160 @@
 text = """
-WOO-USD	WOO USD	0.383657	+0.008040	+2.14%	699.821M	10.723M	10.723M	10.723M	1.824B		
-FXS-USD	Frax Share USD	9.0905	-0.1262	-1.37%	696.903M	22.145M	22.145M	22.145M	76.663M		
-LUNC-USD	Terra Classic USD	0.000100	0.000000	+7.907200%	688.118M	98.57M	98.57M	98.57M	5.777T		
-JUP29210-USD	Jupiter USD	0.508268	+0.004235	+0.84%	686.162M	228.639M	228.639M	228.639M	1.35B		
-AKT-USD	Akash Network USD	3.0074	-0.0093	-0.31%	684.104M	4.242M	4.242M	4.242M	227.47M		
-GALA-USD	Gala USD	0.024189	+0.000385	+1.62%	672.459M	44.653M	44.653M	44.653M	27.8B		
-FRAX-USD	Frax USD	0.999134	-0.001834	-0.18%	648.9M	5.515M	5.515M	5.515M	649.462M		
-XEC-USD	eCash USD	0.000033	-0.000001	-2.55%	640.036M	25.391M	25.391M	25.391M	19.631T		
-GNO-USD	Gnosis USD	247.11	-0.66	-0.27%	639.901M	5.522M	5.522M	5.522M	2.59M		
-VBNB-USD	Venus BNB USD	7.5732	-0.0543	-0.71%	638.622M	370.373M	370.373M	370.373M	84.327M		
-WBNB-USD	Wrapped BNB USD	321.40	-1.93	-0.60%	622.873M	95.979M	95.979M	95.979M	1.938M		
-AXL17799-USD	Axelar USD	1.1061	+0.0034	+0.31%	622.186M	10.357M	10.357M	10.357M	562.486M		
-XDC-USD	XDC Network USD	0.043681	-0.000097	-0.22%	607.046M	14.276M	14.276M	14.276M	13.897B		
-CAKE-USD	PancakeSwap USD	2.5447	-0.0189	-0.74%	592.349M	63.81M	63.81M	63.81M	232.778M		
-RPL-USD	Rocket Pool USD	28.82	-1.13	-3.77%	578.393M	5.6M	5.6M	5.6M	20.066M		
-STRD-USD	Stride USD	6.5612	+0.5929	+9.93%	576.246M	407,624	407,624	407,624	87.826M		
-AR-USD	Arweave USD	8.6961	+0.1290	+1.51%	569.196M	12.987M	12.987M	12.987M	65.454M		
-Curve DAO Token USDCRV-USD	Curve DAO Token USD	0.495404	+0.004329	+0.88%	548.604M	35.136M	35.136M	35.136M	1.107B		
-FTX Token USDFTT-USD	FTX Token USD	1.6104	+0.0219	+1.38%	529.652M	11.142M	11.142M	11.142M	328.895M		
-ApeCoin USDAPE18876-USD	ApeCoin USD	1.4282	+0.0276	+1.97%	526.444M	43.216M	43.216M	43.216M	368.594M		
-Nexo USDNEXO-USD	Nexo USD	0.940719	-0.000840	-0.09%	526.803M	2.724M	2.724M	2.724M	560M		
-Fetch.ai USDFET-USD	Fetch.ai USD	0.620420	+0.023450	+3.93%	515.913M	62.095M	62.095M	62.095M	831.554M		
-Coinbase Wrapped Staked ETH USDCBETH-USD	Coinbase Wrapped Staked ETH USD	2,641.34	-1.04	-0.04%	516.834M	2.641M	2.641M	2.641M	195,671		
-Siacoin USDSC-USD	Siacoin USD	0.009000	+0.000300	+2.975500%	509.134M	14.743M	14.743M	14.743M	56.432B		
-Tether Gold USDXAUT-USD	Tether Gold USD	2,024.47	+2.49	+0.12%	499.081M	3.941M	3.941M	3.941M	246,524		
-Fasttoken USDFTN-USD	Fasttoken USD	1.6125	-0.0278	-1.70%	491.572M	10.74M	10.74M	10.74M	304.85M		
-Trust Wallet Token USDTWT-USD	Trust Wallet Token USD	1.1579	+0.0158	+1.38%	482.42M	13.206M	13.206M	13.206M	416.65M		
-1inch Network USD1INCH-USD	1inch Network USD	0.419880	-0.006426	-1.51%	479.219M	22.006M	22.006M	22.006M	1.141B		
-Core USDCORE23254-USD	Core USD	0.529891	-0.005391	-1.01%	458.269M	8.794M	8.794M	8.794M	864.835M		
-GateToken USDGT-USD	GateToken USD	4.7250	-0.0825	-1.72%	455.903M	1.417M	1.417M	1.417M	96.487M		
-Kujira USDKUJI-USD	Kujira USD	3.6934	+0.0552	+1.52%	451.885M	1.304M	1.304M	1.304M	122.35M		
-SuperVerse USDSUPER8290-USD	SuperVerse USD	0.925555	+0.220716	+31.31%	451.463M	167.148M	167.148M	167.148M	487.776M		
-Metis USDMETIS-USD	Metis USD	85.76	-1.69	-1.93%	450.299M	19.563M	19.563M	19.563M	5.251M		
-Compound USDCOMP5692-USD	Compound USD	54.98	+0.50	+0.92%	443.805M	39.114M	39.114M	39.114M	8.072M		
-Terra USDLUNA20314-USD	Terra USD	0.673856	+0.010732	+1.62%	441.586M	45.371M	45.371M	45.371M	655.312M		
-GMT USDGMT18069-USD	GMT USD	0.250842	-0.000995	-0.40%	437.675M	24.727M	24.727M	24.727M	1.745B		
-APENFT USDNFT9816-USD	APENFT USD	0.00000044	-0.00000000	-0.16%	435.945M	32.366M	32.366M	32.366M	990.106T		
-Radix USDXRD-USD	Radix USD	0.042034	+0.003499	+9.08%	435.9M	3.284M	3.284M	3.284M	10.37B		
-Pepe USDPEPE24478-USD	Pepe USD	0.00000102	+0.00000000	+0.12%	427.395M	77.755M	77.755M	77.755M	420.69T		
-aelf USDELF-USD	aelf USD	0.596417	-0.006705	-1.11%	426.476M	5.307M	5.307M	5.307M	715.064M		
-Bitcoin Gold USDBTG-USD	Bitcoin Gold USD	24.36	-0.73	-2.90%	426.682M	15.257M	15.257M	15.257M	17.514M		
-GMX USDGMX11857-USD	GMX USD	44.13	-1.21	-2.66%	415.949M	18.361M	18.361M	18.361M	9.425M		
-Casper USDCSPR-USD	Casper USD	0.035200	+0.000290	+0.83%	414.793M	5.595M	5.595M	5.595M	11.784B		
-Enjin Coin USDENJ-USD	Enjin Coin USD	0.297187	+0.001077	+0.363833%	410.085M	10.295M	10.295M	10.295M	1.38B		
-PAX Gold USDPAXG-USD	PAX Gold USD	2,000.50	-6.84	-0.34%	409.998M	8.438M	8.438M	8.438M	204,948		
-IoTeX USDIOTX-USD	IoTeX USD	0.043221	-0.000322	-0.738460%	408.118M	6.693M	6.693M	6.693M	9.441B		
-Pocket Network USDPOKT-USD	Pocket Network USD	0.264618	+0.005630	+2.17%	402.622M	2.3M	2.3M	2.3M	1.522B		
-SKALE USDSKL-USD	SKALE USD	0.077750	-0.000883	-1.122397%	400.925M	15.036M	15.036M	15.036M	5.157B		
-Gas USDGAS-USD	Gas USD	5.8882	+0.0195	+0.3320%	390.896M	16.649M	16.649M	16.649M	66.388M		
-Rollbit Coin USDRLB-USD	Rollbit Coin USD	0.117361	-0.002529	-2.11%	386.933M	4.406M	4.406M	4.406M	3.297B		
-ALT29073-USD	Altlayer USD	0.348497	+0.005936	+1.73%	383.346M	141.168M	141.168M	141.168M	1.1B		
-Celo USDCELO-USD	Celo USD	0.714338	-0.011356	-1.56%	377.083M	12.788M	12.788M	12.788M	527.878M		
-SingularityNET USDAGIX-USD	SingularityNET USD	0.300480	+0.003062	+1.03%	376.444M	28.387M	28.387M	28.387M	1.253B		
-Zilliqa USDZIL-USD	Zilliqa USD	0.020900	-0.000200	-0.726800%	363.028M	13.27M	13.27M	13.27M	17.372B		
-Wrapped Kava USDWKAVA-USD	Wrapped Kava USD	0.721286	-0.010599	-1.45%	358.962M	3,462	3,462	3,462	497.669M		
-Decentralized Social USDDESO-USD	Decentralized Social USD	40.11	+1.07	+2.75%	356.386M	2.773M	2.773M	2.773M	8.885M		
-Pax Dollar USDUSDP-USD	Pax Dollar USD	1.0000	-0.0002	-0.02%	352.859M	2.744M	2.744M	2.744M	352.851M		
-Kusama USDKSM-USD	Kusama USD	41.45	+0.10	+0.25%	350.978M	18.397M	18.397M	18.397M	8.47M		
-Orbler USDORBR-USD	Orbler USD	0.346497	-0.060380	-14.84%	351.898M	225,315	225,315	225,315	1.016B		
-Mask Network USDMASK8536-USD	Mask Network USD	3.5831	+0.0881	+2.52%	344.067M	80.763M	80.763M	80.763M	96.025M		
-Zcash USDZEC-USD	Zcash USD	20.95	-0.04	-0.18%	342.116M	52.065M	52.065M	52.065M	16.328M		
-ZETA21259-USD	ZetaChain USD	1.4408	+0.0728	+5.32%	340.715M	59.238M	59.238M	59.238M	236.469M		
-Holo USDHOT2682-USD	Holo USD	0.001956	+0.000002	+0.096310%	338.224M	12.495M	12.495M	12.495M	172.836B		
-Basic Attention Token USDBAT-USD	Basic Attention Token USD	0.226867	-0.000233	-0.102541%	338.12M	13.31M	13.31M	13.31M	1.49B		
-Illuvium USDILV-USD	Illuvium USD	88.59	+2.12	+2.45%	333.737M	18.191M	18.191M	18.191M	3.767M		
-SafePal USDSFP-USD	SafePal USD	0.710247	+0.009083	+1.30%	328.489M	3.312M	3.312M	3.312M	462.5M		
-Loopring USDLRC-USD	Loopring USD	0.239900	+0.001100	+0.452500%	327.924M	10.699M	10.699M	10.699M	1.367B		
-UMA USDUMA-USD	UMA USD	4.1122	+0.0033	+0.0801%	321.942M	21.981M	21.981M	21.981M	78.289M		
-Dash USDDASH-USD	Dash USD	27.42	+0.28	+1.03%	319.808M	36.223M	36.223M	36.223M	11.662M		
-Moonbeam USDGLMR-USD	Moonbeam USD	0.382812	-0.002051	-0.53%	316.716M	7.319M	7.319M	7.319M	827.341M		
-Neutron USDNTRN26680-USD	Neutron USD	1.1356	-0.0091	-0.80%	316.581M	17.276M	17.276M	17.276M	278.773M		
-dogwifhat USDWIF-USD	dogwifhat USD	0.316681	+0.083392	+35.75%	316.339M	59.151M	59.151M	59.151M	998.92M		
-ONDO-USD	Ondo USD	0.227464	+0.000789	+0.35%	314.573M	71.16M	71.16M	71.16M	1.383B		
-NEM USDXEM-USD	NEM USD	0.034923	-0.000383	-1.083484%	314.308M	6.361M	6.361M	6.361M	9B		
-Treasure USDMAGIC14783-USD	Treasure USD	1.2143	-0.0095	-0.77%	314.444M	57.299M	57.299M	57.299M	258.948M		
-Qtum USDQTUM-USD	Qtum USD	3.0001	+0.0124	+0.41%	314.276M	34.243M	34.243M	34.243M	104.756M		
-Worldcoin USDWLD-USD	Worldcoin USD	2.5052	+0.0197	+0.79%	312.094M	73.14M	73.14M	73.14M	124.577M		
-Tellor USDTRB-USD	Tellor USD	119.42	+3.07	+2.64%	304.594M	46.888M	46.888M	46.888M	2.551M		
-Chia USDXCH-USD	Chia USD	30.89	-0.04	-0.11%	304.282M	4.129M	4.129M	4.129M	9.851M		
-Huobi Token USDHT-USD	Huobi Token USD	1.8719	-0.1289	-6.44%	303.686M	12.504M	12.504M	12.504M	162.234M		
-ssv.network USDSSV-USD	ssv.network USD	30.24	-0.07	-0.25%	302.436M	12.958M	12.958M	12.958M	10M		
-PayPal USD USDPYUSD-USD	PayPal USD USD	0.999686	-0.000200	-0.02%	301.081M	9.43M	9.43M	9.43M	301.175M		
-EthereumPoW USDETHW-USD	EthereumPoW USD	2.7676	+0.0335	+1.22%	298.395M	8.689M	8.689M	8.689M	107.819M		
-Convex Finance USDCVX-USD	Convex Finance USD	3.1856	-0.0109	-0.34%	297.804M	6.336M	6.336M	6.336M	93.485M		
-ZetaChain USDZETA-USD	ZetaChain USD	1.2787	+0.0220	+1.75%	302.38M	48.167M	48.167M	48.167M	236.469M		
-Raydium USDRAY-USD	Raydium USD	1.1500	+0.0436	+3.9369%	295.138M	20.757M	20.757M	20.757M	256.596M		
-FLOKI USDFLOKI-USD	FLOKI USD	0.000031	-0.000000	-1.39%	294.472M	16.806M	16.806M	16.806M	9.565T		
-Kadena USDKDA-USD	Kadena USD	1.0978	-0.0266	-2.3689%	288.968M	8.274M	8.274M	8.274M	262.992M		
-SPACE ID USDID21846-USD	SPACE ID USD	0.617161	+0.000633	+0.10%	288.365M	137.568M	137.568M	137.568M	467.245M		
-L7 USDLSD28047-USD	L7 USD	6.9915	-0.1164	-1.64%	286.243M	2.172M	2.172M	2.172M	40.942M		
-JasmyCoin USDJASMY-USD	JasmyCoin USD	0.005787	+0.000140	+2.49%	285.285M	51.179M	51.179M	51.179M	49.3B		
-Centrifuge USDCFG-USD	Centrifuge USD	0.601910	+0.016524	+2.82%	284.126M	1.307M	1.307M	1.307M	472.04M		
-OriginTrail USDTRAC-USD	OriginTrail USD	0.701784	-0.035860	-4.86%	282.345M	1.769M	1.769M	1.769M	402.324M		
-Aleph Zero USDAZERO-USD	Aleph Zero USD	1.0359	+0.0107	+1.05%	276.346M	3.607M	3.607M	3.607M	266.779M		
-JUST USD JST-USD	JUST USD	0.030969	-0.000042	-0.14%	275.688M	33.076M	33.076M	33.076M	8.902B		
+BUY HON - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HON
+BUY OC - found in strategies: Bollinger Bands & RSI. Entry range: 141.82-144.66, Target Price: 160.32, Stop loss: 137.56. link for yahoo: https://finance.yahoo.com/quote/OC
+BUY GFL - found in strategies: Basic.Entry range: 35.39-35.74, Target Price: 39.37, Stop loss: 34.43. link for yahoo: https://finance.yahoo.com/quote/GFL
+BUY RHI - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/RHI
+BUY FCN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FCN
+BUY ADT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ADT
+BUY R - found in strategies: Bollinger Bands & RSI. Entry range: 110.89-113.11, Target Price: 119.80, Stop loss: 107.56. link for yahoo: https://finance.yahoo.com/quote/R
+BUY JOBY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/JOBY
+BUY MDT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MDT
+BUY BIIB - found in strategies: Bollinger Bands & RSI. Entry range: 225.23-229.74, Target Price: 259.43, Stop loss: 218.47. link for yahoo: https://finance.yahoo.com/quote/BIIB
+BUY RMD - found in strategies: Basic.Entry range: 183.22-185.05, Target Price: 186.11, Stop loss: 178.49. link for yahoo: https://finance.yahoo.com/quote/RMD
+BUY ILMN - found in strategies: Basic.Entry range: 141.49-142.90, Target Price: 179.79, Stop loss: 129.63. link for yahoo: https://finance.yahoo.com/quote/ILMN
+BUY IONS - found in strategies: Bollinger Bands & RSI. Entry range: 47.93-48.88, Target Price: 52.93, Stop loss: 46.49. link for yahoo: https://finance.yahoo.com/quote/IONS
+BUY ALKS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ALKS
+BUY SGRY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/SGRY
+BUY ITGR - found in strategies: Bollinger Bands & RSI. Entry range: 98.64-100.62, Target Price: 107.67, Stop loss: 95.68. link for yahoo: https://finance.yahoo.com/quote/ITGR
+BUY CERT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CERT
+BUY WRBY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/WRBY
+BUY ADUS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ADUS
+BUY SAGE - found in strategies: Basic.Entry range: 24.74-24.99, Target Price: 32.46, Stop loss: 22.53. link for yahoo: https://finance.yahoo.com/quote/SAGE
+BUY FNA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FNA
+BUY GYRE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/GYRE
+BUY MCHP - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MCHP
+BUY FIS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FIS
+BUY ON - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ON
+BUY EPAM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/EPAM
+BUY TER - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TER
+BUY ZBRA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ZBRA
+BUY EXLS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/EXLS
+BUY BLKB - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/BLKB
+BUY PEGA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PEGA
+BUY CXM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CXM
+BUY FSLY - found in strategies: Bollinger Bands & RSI. Entry range: 17.53-17.88, Target Price: 25.26, Stop loss: 17.00. link for yahoo: https://finance.yahoo.com/quote/FSLY
+BUY ESE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ESE
+BUY NATL - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/NATL
+BUY MLNK - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MLNK
+BUY PDFS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PDFS
+BUY DGII - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/DGII
+BUY RDZN - found in strategies: Basic.Entry range: 6.48-6.55, Target Price: 7.81, Stop loss: 5.80. link for yahoo: https://finance.yahoo.com/quote/RDZN
+BUY FARO - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FARO
+BUY VPG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/VPG
+BUY LUNA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LUNA
+BUY PCG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PCG
+BUY MTB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MTB
+BUY BEN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BEN
+BUY KEY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/KEY
+BUY FAF - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FAF
+BUY ZION - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ZION
+BUY PB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PB
+BUY OZK - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/OZK
+BUY HOMB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HOMB
+BUY UBSI - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/UBSI
+BUY ONB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ONB
+BUY AB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AB
+BUY CATY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CATY
+BUY UPST - found in strategies: Bollinger Bands & RSI. Entry range: 28.00-28.56, Target Price: 37.71, Stop loss: 27.16. link for yahoo: https://finance.yahoo.com/quote/UPST
+BUY NAD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/NAD
+BUY AUB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AUB
+BUY BOH - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BOH
+BUY BANC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BANC
+BUY PAX - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PAX
+BUY FFBC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FFBC
+BUY TOWN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TOWN
+BUY HTH - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HTH
+BUY FRME - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FRME
+BUY EVT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/EVT
+BUY GCMG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/GCMG
+BUY FBNC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FBNC
+BUY NTB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/NTB
+BUY HOPE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HOPE
+BUY NMFC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/NMFC
+BUY ECPG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ECPG
+BUY LMND - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LMND
+BUY NIC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/NIC
+BUY GABC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/GABC
+BUY LC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LC
+BUY DOW - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/DOW
+BUY AVNT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AVNT
+BUY SLVM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/SLVM
+BUY TMST - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TMST
+BUY ACNT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ACNT
+BUY ROL - found in strategies: Bollinger Bands & RSI. Entry range: 42.46-43.31, Target Price: 44.81, Stop loss: 41.19. link for yahoo: https://finance.yahoo.com/quote/ROL
+BUY FIVE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FIVE
+BUY CHDN - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/CHDN
+BUY HGV - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HGV
+BUY YETI - found in strategies: Bollinger Bands & RSI. Entry range: 41.36-42.19, Target Price: 49.10, Stop loss: 40.12. link for yahoo: https://finance.yahoo.com/quote/YETI
+BUY QS - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/QS
+BUY KSS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/KSS
+BUY TNL - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TNL
+BUY LCII - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LCII
+BUY AIN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AIN
+BUY ACVA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ACVA
+BUY OXM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/OXM
+BUY PHIN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PHIN
+BUY MYE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MYE
+BUY FLWS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FLWS
+BUY BWMX - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BWMX
+BUY LE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LE
+BUY CPHC - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CPHC
+BUY RGS - found in strategies: Basic.Entry range: 11.09-11.20, Target Price: 12.68, Stop loss: 9.38. link for yahoo: https://finance.yahoo.com/quote/RGS
+BUY IVT - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/IVT
+BUY AIV - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AIV
+BUY PLYM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PLYM
+BUY RMR - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/RMR
+BUY ACR - found in strategies: Basic.Entry range: 9.88-9.98, Target Price: 10.74, Stop loss: 9.63. link for yahoo: https://finance.yahoo.com/quote/ACR
+BUY FWONA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FWONA
+BUY TWLO - found in strategies: Bollinger Bands & RSI. Entry range: 65.42-66.72, Target Price: 76.76, Stop loss: 63.45, EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/TWLO
+BUY MANU - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/MANU
+BUY THRY - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/THRY
+BUY SJM - found in strategies: Bollinger Bands & RSI. Entry range: 125.15-127.65, Target Price: 135.20, Stop loss: 121.39. link for yahoo: https://finance.yahoo.com/quote/SJM
+BUY BJ - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BJ
+BUY FIZZ - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FIZZ
+BUY AM - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AM
+BUY CHX - found in strategies: Basic.Entry range: 28.69-28.98, Target Price: 32.53, Stop loss: 28.12. link for yahoo: https://finance.yahoo.com/quote/CHX
+BUY VAL - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/VAL
+BUY CNX - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CNX
+BUY CEIX - found in strategies: EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/CEIX
+BUY VTOL - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/VTOL
+BUY VTS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/VTS
+BUY NC - found in strategies: Bollinger Bands & RSI. Entry range: 35.33-36.03, Target Price: 37.36, Stop loss: 34.27. link for yahoo: https://finance.yahoo.com/quote/NC
+BUY PNRG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PNRG
+BUY SHIB-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/SHIB-USD
+BUY AXS-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AXS-USD
+BUY MANA-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MANA-USD
+BUY RVN-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/RVN-USD
+BUY T-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/T-USD
+BUY ANKR-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ANKR-USD
+BUY LYX-USD - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LYX-USD
+BUY XLRE - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/XLRE
+BUY EPI - found in strategies: Basic.Entry range: 43.39-43.82, Target Price: 47.36, Stop loss: 42.41. link for yahoo: https://finance.yahoo.com/quote/EPI
+BUY EMLP - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/EMLP
+BUY SDOG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/SDOG
+BUY PID - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/PID
+BUY BAB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/BAB
+BUY ICF - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ICF
+BUY IEO - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/IEO
+BUY FTXN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FTXN
+BUY FXZ - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FXZ
+BUY FXG - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FXG
+BUY INDS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/INDS
+BUY AGZ - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/AGZ
+BUY CSB - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/CSB
+BUY FILL - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FILL
+BUY LQDI - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/LQDI
+BUY FFIU - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/FFIU
+BUY TER - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TER
+BUY SOUN - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/SOUN
+BUY OSS - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/OSS
+BUY NMTC - found in strategies: Bollinger Bands & RSI. Entry range: 1.07-1.09, Target Price: 1.52, Stop loss: 1.03, EMA Sell Signal. link for yahoo: https://finance.yahoo.com/quote/NMTC
+BUY SPOFF - found in strategies: Bollinger Bands & RSI. Entry range: 0.11-0.11, Target Price: 0.14, Stop loss: 0.11. link for yahoo: https://finance.yahoo.com/quote/SPOFF
+BUY ZBRA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ZBRA
+BUY MCHP - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/MCHP
+BUY ZBRA - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/ZBRA
+BUY TER - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/TER
+BUY HON - found in strategies: EMA Buy Signal. link for yahoo: https://finance.yahoo.com/quote/HON
+BUY IONS - found in strategies: Bollinger Bands & RSI. Entry range: 47.98-48.94, Target Price: 52.89, Stop loss: 46.54. link for yahoo: https://finance.yahoo.com/quote/IONS
 
 
 """
