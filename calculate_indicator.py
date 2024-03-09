@@ -1,11 +1,21 @@
-import datetime
-
-import yfinance as yf
 import pandas as pd
-import datetime
-from email_protocol import send_email
-from sectors.tickers_module import tickers
-import os
+
+
+def calculate_ema_signal(df, ema_length=300):
+    """
+    Calculates buy or sell signals based on EMA criteria.
+
+    :param df: DataFrame containing stock price data.
+    :param ema_length: Length of the EMA. Default is 300.
+    :return: Tuple (buy_signal, sell_signal) indicating whether there are buy or sell signals.
+    """
+    df['EMA'] = df['Close'].ewm(span=ema_length, adjust=False).mean()
+    # Define buy and sell signals
+    buy_signal = (df['Low'] > df['EMA']) & (
+            df['Low'].shift(1) <= df['EMA'].shift(1))
+    sell_signal = (df['High'] < df['EMA']) & (
+            df['High'].shift(1) >= df['EMA'].shift(1))
+    return buy_signal.iloc[-1], sell_signal.iloc[-1]
 
 
 def calculate_rsi(df, period=14):
@@ -95,83 +105,3 @@ def buy_signal_basic(ha_df, df):
         return True, stop_loss, target_price, (
             entry_point_start, entry_point_end)
     return False, None, None, None
-
-
-def ensure_the_directory_exists(file_name):
-    output_dir = 'C:/finance'
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    file_path = os.path.join(output_dir, file_name)
-    clear_file_contents(file_path)
-    return file_path
-
-
-def clear_file_contents(file_path):
-    with open(file_path, 'w'):
-        pass
-
-
-def scan_stocks(tickers, file_path, strategy_choice):
-    buy_tickers = []
-
-    for ticker in tickers:
-        try:
-            df = yf.download(ticker, period="1mo", interval='1d')
-            if df.empty:
-                continue
-            df = calculate_rsi(df)
-            df['EMA9'] = calculate_ema(df, 9)
-            df['EMA26'] = calculate_ema(df, 26)
-            strategies_found = []
-
-            # Inside scan_stocks, adjust the if conditions where strategies are called
-            if strategy_choice in ['2', '3']:
-                df = calculate_bollinger_bands(df)
-                buy_signal, stop_loss, target_price, entry_range = buy_signal_bollinger_rsi(
-                    df)
-                if buy_signal:
-                    strategies_found.append(
-                        f"Bollinger Bands & RSI. Entry range: {entry_range[0]:.2f}-{entry_range[1]:.2f}, Target Price: {target_price:.2f}, Stop loss: {stop_loss:.2f}")
-
-            if strategy_choice in ['1', '3']:
-                ha_df = calculate_heikin_ashi(df)
-                buy_signal, stop_loss, target_price, entry_range = buy_signal_basic(
-                    ha_df,
-                    df)
-                if buy_signal:
-                    strategies_found.append(
-                        f"Basic.Entry range: {entry_range[0]:.2f}-{entry_range[1]:.2f}, Target Price: {target_price:.2f}, Stop loss: {stop_loss:.2f}")
-
-            if strategies_found:
-                buy_tickers.append(ticker)
-                # Fetch Yahoo Finance link
-                yahoo_finance_link = f"https://finance.yahoo.com/quote/{ticker}"
-                with open(file_path, 'a') as file:
-                    strategy_names = ', '.join(strategies_found)
-                    file.write(
-                        f"BUY {ticker} - found in strategies: {strategy_names}."
-                        f" link for yahoo: {yahoo_finance_link}\n")
-
-        except Exception as e:
-            pass
-    return buy_tickers
-
-
-def main():
-    chosen_sector = "all"
-    strategy_choice = 3
-
-    date_str = datetime.date.today().strftime("%Y-%m-%d")
-    file_name = f"{chosen_sector}_{date_str}.txt" if chosen_sector.lower() != 'all' else f"all_sectors_{date_str}.txt"
-    file_path = ensure_the_directory_exists(file_name)
-    all_buy_tickers = []
-
-    for sector in tickers.keys():
-        buy_tickers = scan_stocks(tickers[sector], file_path,
-                                  strategy_choice)
-        all_buy_tickers.extend(buy_tickers)
-
-
-if __name__ == '__main__':
-    main()
-

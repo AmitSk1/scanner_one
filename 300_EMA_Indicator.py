@@ -43,6 +43,6 @@ def calculate_ema_signal(stock_list, ema_length=300):
 
 
 # Example usage:
-stock_list = ['ZBRA']  # Add your stocks here
+stock_list = ['BTC-USD']  # Add your stocks here
 signals = calculate_ema_signal(stock_list)
 print(signals)
